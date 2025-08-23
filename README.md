@@ -80,7 +80,7 @@ As cores foram escolhidas pensando na **floresta selvagem**, trazendo tons vibra
 
 ## 📸 Demonstração
 
-🔗 [Visualizar Projeto Online](https://www.origamid.com/projetos/animais-fantasticos/)
+🔗 [Visualizar Projeto Online](https://radiant-hummingbird-718b0e.netlify.app/)
 
 ---
 
