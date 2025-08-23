@@ -63,6 +63,7 @@ As cores foram escolhidas pensando na **floresta selvagem**, trazendo tons vibra
 
 ## 📂 Estrutura de Arquivos
 
+```
 📦 animais-fantasticos
 ┣ 📂 css
 ┃ ┗ 📜 style.css
@@ -73,6 +74,7 @@ As cores foram escolhidas pensando na **floresta selvagem**, trazendo tons vibra
 ┣ 📜 index.html
 ┣ 📜 animaisapi.json
 ┗ 📜 README.md
+```
 
 ---
 
