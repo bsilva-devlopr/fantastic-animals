@@ -5,8 +5,10 @@ export default class Funcionamento {
   }
 
   dadosFuncionamento() {
-    this.diasSemana = this.funcionamento.dataset.semana.split(',').map(Number);
-    this.horarioSemana = this.funcionamento.dataset.horario.split(',').map(Number);
+    this.diasSemana = this.funcionamento.dataset.semana.split(",").map(Number);
+    this.horarioSemana = this.funcionamento.dataset.horario
+      .split(",")
+      .map(Number);
   }
 
   dadosAgora() {
@@ -17,8 +19,9 @@ export default class Funcionamento {
 
   estaAberto() {
     const semanaAberto = this.diasSemana.indexOf(this.diaAgora) !== -1;
-    const horarioAberto = (this.horarioAgora >= this.horarioSemana[0]
-      && this.horarioAgora < this.horarioSemana[1]);
+    const horarioAberto =
+      this.horarioAgora >= this.horarioSemana[0] &&
+      this.horarioAgora < this.horarioSemana[1];
     return semanaAberto && horarioAberto;
   }
 
